@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Item1"
+        android:id="@+id/item12"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_accessibility_new_24"/>
+
+    <item
+        android:title="Item2"
+        android:id="@+id/item13"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_crop_rotate_24"/>
+
+    <item
+        android:title="Item3"
+        android:id="@+id/item14"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_directions_bike_24"/>
+
+</menu>

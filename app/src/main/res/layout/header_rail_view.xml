@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_tag_faces_24"
+        android:backgroundTint="@color/mine"
+        android:background="@color/mine"
+        android:clickable="true"
+        android:focusable="true"
+        app:fabSize="normal"
+        app:rippleColor="@color/teal_700"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
